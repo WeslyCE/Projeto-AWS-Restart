@@ -1,0 +1,42 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+# Lista de integrantes
+integrantes = [
+    {"nome": "Adriana Gutierrez", "slug": "adriana-gutierrez", "descricao": "Desenvolvedora apaixonada por tecnologia e inovação."},
+    {"nome": "Assis Vasconcelos", "slug": "assis-vasconcelos", "descricao": "Voltado para ciência de dados e análise preditiva."},
+    
+    {
+        "nome": "Danilo Morais",
+        "slug": "danilo-morais",
+        "descricao": "Focado em qualidade de software e desenvolvimento Java.",
+        "detalhada": "Tenho experiência com teste de sistemas, investigação de bugs e desenvolvimento backend em Java e Spring Boot.",
+        "objetivo": "Atuar como Desenvolvedor Backend Júnior, com foco em crescimento técnico e entrega de valor.",
+        "stack": ["Java", "Spring Boot", "SQL", "Flask", "Git"],
+        "softskills": ["Trabalho em equipe", "Comunicação", "Proatividade", "Aprendizado contínuo"],
+        "ferramentas": ["IntelliJ IDEA", "Pycharm", "VSCode", "Colab", "DBeaver", "GitHub"],
+        "linkedin": "https://www.linkedin.com/in/danilomoraisdev/",
+        "github": "https://github.com/Morais453"
+    },    
+
+    {"nome": "Diego Santos", "slug": "diego-santos", "descricao": "Entusiasta de backend e banco de dados."},
+    {"nome": "Frank Melo", "slug": "frank-melo", "descricao": "Atuante em DevOps e práticas ágeis."},
+    {"nome": "Nauani Cortonesi", "slug": "nauani-cortonesi", "descricao": "Interessada em UX/UI e design de interfaces."},
+    {"nome": "Wesley Costa", "slug": "wesley-costa", "descricao": "Apaixonado por segurança da informação."},
+    {"nome": "Yuri Magalhães", "slug": "yuri-magalhaes", "descricao": "Curioso por cloud computing e automação."},
+]
+
+@app.route("/")
+def index():
+    return render_template("index.html", integrantes=integrantes)
+
+@app.route("/portifolio/<slug>")
+def portifolio(slug):
+    integrante = next((i for i in integrantes if i["slug"] == slug), None)
+    if integrante:
+        return render_template("portifolio.html", integrante=integrante, integrantes=integrantes)
+    return "Integrante não encontrado", 404
+
+if __name__ == "__main__":
+    app.run(debug=True)
