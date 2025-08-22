@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Bem-vindo ao Portfólio do Grupo 2</h1>
+  <p>Com base no que foi estudado até o momento, criamos este portfólio para nos apresentarmos melhor para a turma.
+    Aqui você encontrará uma breve apresentação de cada integrante.</p>
+
+  <div class="integrantes-grid">
+    {% for i in integrantes %}
+      <div class="card">
+        <img src="{{ url_for('static', filename='img/' ~ i.slug ~ '.jpg') }}" alt="Foto de {{ i.nome }}">
+        <h2>{{ i.nome }}</h2>
+        <p>{{ i.descricao }}</p>
+        <a href="/portifolio/{{ i.slug }}" class="btn">Ver Portfólio</a>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

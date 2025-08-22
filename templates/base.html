@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Portfólio Grupo</div>
+    <nav>
+      <a href="/">Início</a>
+      {% for i in integrantes %}
+        <a href="/portifolio/{{ i.slug }}">{{ i.nome }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <p>&copy; Grupo 2 Turma AWS re/Start BRSAO215</p>
+  </footer>
+</body>
+</html>

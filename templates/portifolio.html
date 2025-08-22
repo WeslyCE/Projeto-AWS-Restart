@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="perfil">
+    <img src="{{ url_for('static', filename='img/' ~ integrante.slug ~ '.jpg') }}" alt="Foto de {{ integrante.nome }}">
+    <h1>{{ integrante.nome }}</h1>
+    <p class="descricao">{{ integrante.descricao }}</p>
+    <p>{{ integrante.detalhada }}</p>
+
+    <h2>🎯 Objetivo</h2>
+    <p>{{ integrante.objetivo }}</p>
+
+    <h2>💻 Stack Técnica</h2>
+    <ul class="stack-list">
+      {% for tech in integrante.stack %}
+        <li>{{ tech }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>🤝 Soft Skills</h2>
+    <ul>
+      {% for skill in integrante.softskills %}
+        <li>{{ skill }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>🛠 Ferramentas</h2>
+    <ul>
+      {% for tool in integrante.ferramentas %}
+        <li>{{ tool }}</li>
+      {% endfor %}
+    </ul>
+
+    <h2>🌐 Redes</h2>
+    <ul class="redes-list">
+    <li><a href="{{ integrante.linkedin }}" target="_blank">LinkedIn</a></li>
+    <li><a href="{{ integrante.github }}" target="_blank">GitHub</a></li>
+    </ul>
+
+  </div>
+{% endblock %}
