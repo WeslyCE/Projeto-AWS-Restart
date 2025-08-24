@@ -45,7 +45,8 @@ integrantes = [
         "Github":"https://github.com/nauani-cortonesi"
     },
     
-    {"nome": "Wesly Costa", "slug": "wesly-costa", 
+    {"nome": "Wesly Costa", 
+    "slug": "wesly-costa", 
     "descrição": "Apaixonado por Inteligência artifical e automação.",
     "detalhada":"Ampla experiência no atendimento ao cliente, infraestrutrura, suporte local e remoto, etc."
     "objetivo":"Estudando para fornecer soluções, usando IA, automação e nuvem."
