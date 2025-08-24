@@ -28,8 +28,8 @@ integrantes = [
         "descrição":"Interessada em desenvolvimento full stack java.",
         "detalhada":"Tenho experiência com trafégo pago e analise de mídias digitais."
         "objetivo":"Estou estudando para atuar como Desenvolvedora Full stack java TechLead."
-        "Hard skill": ["Trafégo pago, Design, Cybersecurity, Cloud AWS, Marketing inbound e outbound"],
-        "Soft skill":"["Resolução de conflitos, Observação e decisão, Pensamentos estratégicos, Autodidatismo, Empatia, Competitividade"],
+        "Hard skill": ["Trafégo pago", "Design", "Cybersecurity", "Cloud AWS", "Marketing inbound e outbound"],
+        "Soft skill":"["resolução de conflitos", "observação e decisão", "pensamentos estratégicos", "autodidatismo", "empatia, "competitividade"],
         "Linkedin":"http://www.linkedin.com/in/nauani-cortonesi/",
         "Github":"https://github.com/nauani-cortonesi"
     },
