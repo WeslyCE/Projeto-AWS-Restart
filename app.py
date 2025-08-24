@@ -50,8 +50,8 @@ integrantes = [
     "detalhada":"Ampla experiência no atendimento ao cliente, infraestrutrura, suporte local e remoto, etc."
     "objetivo":"Estudando para fornecer soluções, usando IA, automação e nuvem."
     "Hard skill": ["Suporte Técnico", "IA", "Cloud AWS"],
-    "softskills": ["Trabalho em equipe", "Comunicação", "Proatividade", "Aprendizado contínuo", "Resolução de Conflitos"],
-    "ferramentas": 
+    "softskills": ["Trabalho em equipe", "Comunicação clara e objetiva", "Proatividade", "Aprendizado contínuo", "Resolução de Conflitos", "Paciência e Empatia", "Resolução de Problemas", "Documantação Técnica" ],
+    "ferramentas": ["Jira Service", "AnyDesk", "VNC", "Microsoft Office 365", "windows", "Linux", "MacOS"],
     "linkedin": "https://www.linkedin.com/in/weslycosta/",
     "github": "https://github.com/WeslyCE"},
     
