@@ -4,7 +4,18 @@ app = Flask(__name__)
 
 # Lista de integrantes
 integrantes = [
-    {"nome": "Adriana Gutierrez", "slug": "adriana-gutierrez", "descricao": "Desenvolvedora apaixonada por tecnologia e inovação."},
+    {
+        "nome": "Adriana Gutierrez", 
+        "slug": "adriana-gutierrez", 
+        "descricao": "Desenvolvedora 40+ apaixonada por tecnologia e inovação.",
+        "detalhada": "Experiência de 9 meses como front-end Jr",
+        "objetivo": "Em busca de uma função de nível inicial no setor da nuvem.",
+        "softskills": ["Trabalho em equipe", "Comunicação", "Proatividade", "Aprendizado contínuo"],
+        "hard skill": ["HTML", "CSS", "React", "JavaScript", "Cloud AWS"],
+        "ferramentas": ["VSCode", "Figma", "GitHub"],
+        "linkedin": "https://www.linkedin.com/in/adri-ana-gutierrez/",
+        "github": "https://www.linkedin.com/in/adri-ana-gutierrez/"
+    },
     {"nome": "Assis Vasconcelos", "slug": "assis-vasconcelos", "descricao": "Voltado para ciência de dados e análise preditiva."},
     
     {
