@@ -45,7 +45,16 @@ integrantes = [
         "Github":"https://github.com/nauani-cortonesi"
     },
     
-    {"nome": "Wesley Costa", "slug": "wesley-costa", "descricao": "Apaixonado por segurança da informação."},
+    {"nome": "Wesly Costa", "slug": "wesly-costa", 
+    "descrição": "Apaixonado por Inteligência artifical e automação.",
+    "detalhada":"Ampla experiência no atendimento ao cliente, infraestrutrura, suporte local e remoto, etc."
+    "objetivo":"Estudando para fornecer soluções, usando IA, automação e nuvem."
+    "Hard skill": ["Suporte Técnico", "IA", "Cloud AWS"],
+    "softskills": ["Trabalho em equipe", "Comunicação", "Proatividade", "Aprendizado contínuo", "Resolução de Conflitos"],
+    "ferramentas": 
+    "linkedin": "https://www.linkedin.com/in/weslycosta/",
+    "github": "https://github.com/WeslyCE"},
+    
     {"nome": "Yuri Magalhães", "slug": "yuri-magalhaes", "descricao": "Curioso por cloud computing e automação."},
 ]
 
