@@ -22,7 +22,18 @@ integrantes = [
 
     {"nome": "Diego Santos", "slug": "diego-santos", "descricao": "Entusiasta de backend e banco de dados."},
     {"nome": "Frank Melo", "slug": "frank-melo", "descricao": "Atuante em DevOps e práticas ágeis."},
-    {"nome": "Nauani Cortonesi", "slug": "nauani-cortonesi", "descricao": "Interessada em UX/UI e design de interfaces."},
+    {
+        "nome": "Nauani Cortonesi", 
+        "slug": "nauani-cortonesi", 
+        "descrição":"Interessada em desenvolvimento full stack java.",
+        "detalhada":"Tenho experiência com trafégo pago e analise de mídias digitais."
+        "objetivo":"Estou estudando para atuar como Desenvolvedora Full stack java TechLead."
+        "Hard skill": ["Trafégo pago, Design, Cybersecurity, Cloud AWS, Marketing inbound e outbound"],
+        "Soft skill":"["Resolução de conflitos, Observação e decisão, Pensamentos estratégicos, Autodidatismo, Empatia, Competitividade"],
+        "Linkedin":"http://www.linkedin.com/in/nauani-cortonesi/",
+        "Github":"https://github.com/nauani-cortonesi"
+    },
+    
     {"nome": "Wesley Costa", "slug": "wesley-costa", "descricao": "Apaixonado por segurança da informação."},
     {"nome": "Yuri Magalhães", "slug": "yuri-magalhaes", "descricao": "Curioso por cloud computing e automação."},
 ]
